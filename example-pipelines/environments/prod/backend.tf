@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "nomadic-tine-322917-tfstate"
     prefix = "env/prod"
   }
 }
